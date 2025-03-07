@@ -1,0 +1,46 @@
+.left {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection > div {
+    width: 30%;
+    height: fit-content;
+}
+
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.rightSection img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: rgba(231, 231, 231, 0.621);
+}
+.purple {
+    color: rgb(128, 0, 128);
+}
+.secondSection{
+    width: 80vw;
+    margin:auto;
+ 
+
+}
+.secondSection h1{
+    font-size: 1.8rem;
+}
+
+.text_grey{
+    color:grey;
+}
