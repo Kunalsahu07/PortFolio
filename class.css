@@ -2,6 +2,11 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 100px;
+    color: white;
+}
+
+.portfoliotext:hover {
+    color: white;
 }
 
 .firstSection {
@@ -27,6 +32,7 @@
     border: 2px solid black;
     border-radius: 100px;
     background-color: rgba(231, 231, 231, 0.621);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .purple {
@@ -36,18 +42,21 @@
 .secondSection {
     width: 80vw;
     margin: auto;
-
+    height: 100vh;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 
 }
 
 .secondSection h1 {
     font-size: 1.8rem;
 }
- img:hover {
+
+.myimage:hover {
     transform: scale(1.02);
     transition: 1s;
     background-color: rgb(158, 255, 255);
- }
+}
+
 .text_grey {
     color: grey;
 }
@@ -56,6 +65,7 @@
     margin-top: 30px;
     list-style: none;
     cursor: pointer;
+
 }
 
 .btn {
@@ -67,13 +77,14 @@
     text-decoration: none;
     display: inline-block;
     transition: 0.3s;
-
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    /* Shadow effect */
 }
 
-.button a{
+.button a {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .btn a:hover {
@@ -81,7 +92,100 @@
     color: rgb(0, 0, 0);
 
 }
-.button :hover{
+
+.button :hover {
     background-color: rgb(155, 204, 204);
     transition: 0.3s;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.one {
+ 
+    color: rgba(0, 0, 0, 0.856);
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.one img {
+    width: 15%;
+}
+
+.two {
+   
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.two img {
+    width: 13%;
+}
+
+.three {
+   
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.three img {
+    width: 15%;
+}
+
+.four {
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.four img {
+    width: 15%;
+}
+
+.five {
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.five img {
+    width: 15%;
+}
+
+.six {
+
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.six img {
+    width: 15%;
 }
