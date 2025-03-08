@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="class.css">
     <link rel="stylesheet" href="id.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="section1.css">
+    <link rel="stylesheet" href="section2.css">
+    <link rel="stylesheet" href="footer.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,12 +22,13 @@
 </head>
 
 <body>
-
+    <!------------------ Header --------------------->
     <header>
         <nav>
             <a href="http://127.0.0.1:5500/PortFolio/">
                 <div class="left"><span class="kunaltext" style="color: whitesmoke;">KUNAL'S</span>
-                     <span class="port" style="color: cyan;">PORTFOLIO</span></div>
+                    <span class="port" style="color: cyan;">PORTFOLIO</span>
+                </div>
             </a>
             <div class="right">
                 <ul>
@@ -35,9 +41,9 @@
             </div>
         </nav>
     </header>
-
+    <!---------------------- End Header ----------------- -->
     <main>
-
+        <!------------------ First Section --------------------->
         <section class="firstSection">
             <div class="leftSection">
                 Hi, My name is <span class="purple">Kunal </span>
@@ -54,11 +60,12 @@
             <div class="rightSection">
                 <img src="images/logomy.png" alt="none" class="myimage">
             </div>
-
         </section>
+        <!---------------------- End First Section ----------------- -->
 
         <hr>
 
+        <!------------------ Second Section --------------------->
         <section class="secondSection">
             <span class="text_grey">What i have done so far</span>
             <h1>Work Experiences :</h1>
@@ -73,8 +80,8 @@
 
 
                 <div class="two">
-                     <h3>News App</h3>
-                     <img src="images/newspaper.png" alt="news_logo">
+                    <h3>News App</h3>
+                    <img src="images/newspaper.png" alt="news_logo">
                 </div>
 
 
@@ -89,8 +96,8 @@
                 </div>
 
                 <div class="five">
-                       <h3>Calculator App</h3>
-                       <img src="images/calculator.png" alt="">
+                    <h3>Calculator App</h3>
+                    <img src="images/calculator.png" alt="">
                 </div>
 
                 <div class="six">
@@ -100,8 +107,9 @@
             </div>
         </section>
     </main>
+    <!---------------------- End Second Section ----------------- -->
 
-
+    <!-- animate text -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
@@ -109,6 +117,29 @@
             typeSpeed: 50,
         });
     </script>
+
+
+
+    <!------------------ Footer --------------------->
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2025. All rights reserved.</p>
+        </div>
+        <div class="icons">
+            <a href="https://www.facebook.com/rahulkumar.sahu.585559" target="_blank"> <img
+                    src="icons/facebook-logo-48.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/rahul_kumar_7489/" target="_blank"><img src="icons/instagram-logo.png"
+                    alt=""></a>
+            <a href="https://github.com/Kunalsahu07?tab=repositories" target="_blank"> <img
+                    src="icons/github-logo-94.png" alt=""></a>
+            <a href="https://wa.me/917489464257?text=Hello%20there!" target="_blank"> <img src="icons/whatsapp-logo.png"
+                    alt=""></a>
+            <a href="https://x.com/sahu_kunal7489" target="_blank"><img src="icons/x-50.png" alt=""></a>
+
+        </div>
+    </footer>
+    <!---------------------- End Footer ----------------- -->
 </body>
 
 </html>
