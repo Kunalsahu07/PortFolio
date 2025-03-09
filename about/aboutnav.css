@@ -6,7 +6,12 @@ nav {
     background-color: rgb(20, 19, 19);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
 }
-
+.left {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 100px;
+    color: white;
+}
 nav ul {
     display: flex;
     justify-content: center;
