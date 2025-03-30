@@ -1,0 +1,23 @@
+.firstSection {
+    display: flex;
+    justify-self: center;
+    margin-top: 150px;
+}
+
+.container {
+    height: 50vh;
+    width: auto;
+    background-color: #a31717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
