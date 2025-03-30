@@ -1,0 +1,75 @@
+.firstsection {
+
+    background-color: #797878;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100vh;
+    display: flex;
+}
+
+.poem {
+    background-color: #a8f491;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.quotes{
+    background-color: #ecf09d;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.notes{
+    background-color: #f0c09d;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.poem a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+
+.quotes a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+.notes a {
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+}
+.poem:hover {
+    background-color: #9bed82;
+    transition: background-color 0.3s ease;
+}
+.quotes:hover {
+    background-color: #e8ee77;
+    transition: background-color 0.3s ease;
+}
+.notes:hover {
+    background-color: #f0a09d;
+    transition: background-color 0.3s ease;
+}

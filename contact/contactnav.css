@@ -1,17 +1,25 @@
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100px;
     background-color: rgb(20, 19, 19);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
 }
-
+.contactme{
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+    margin-top: 60px;
+  
+}
 
 .left {
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 100px;
+    margin-left: 50px;
     color: white;
 }
 nav ul {
@@ -37,4 +45,42 @@ nav ul li a:hover {
 nav a {
     text-decoration: none;
 
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px; 
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.login-btn{
+    background-color: rgb(138, 43, 226);
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.right .login-btn:hover{
+    background-color: rgb(121, 13, 222);
+   
+    transition: all 0.3s ease-in-out;
+}
+.firstSection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-image: url("images/contact.jpg");
+    background-size: cover;
+    /* Ensures the image covers the entire screen */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    background-position: center;
+      
 }
